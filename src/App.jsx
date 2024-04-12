@@ -1,3 +1,4 @@
+import Navbar from './component/Navbar'
 import { useState } from 'react'
 
 
@@ -8,7 +9,8 @@ function App() {
 
   return (
     <>
-     <h1 className="text-4xl font-bold underline">
+    <Navbar/>
+    <h1 className="text-4xl font-bold underline">
       Hello world!
     </h1>
     </>
